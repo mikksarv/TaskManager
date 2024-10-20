@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Manager</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: grey:
+            color: white;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background: green;
+            margin: 5px 0;
+            padding: 10px;
+            color: white;
+        }
+
+        h1 {
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>This is a place to add and delete tasks</h1>
+</div>
+<form id="task-form">
+    <input type="text" id="task-input" placeholder="Enter a new task" required>
+    <br>
+    <button type="submit">Add Task</button>
+    <button type="button" id="remove-task">Remove Task</button>
+
+</form>
+<div>
+    <ul id="task-list">List of tasks</ul>
+</div>
+
+<script src="/FrontEnd/javascript.js"></script>
+</body>
+
+
+
+
+</html>
