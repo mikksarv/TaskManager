@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+
     // Function to display tasks in the task list
     function displayTasks(tasks) {
         taskList.innerHTML = ''; // Clear the current list
